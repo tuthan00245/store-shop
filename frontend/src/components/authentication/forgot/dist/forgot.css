@@ -1,0 +1,96 @@
+.forgotpassword-screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16%;
+  padding-bottom: 10%;
+}
+.forgotpassword-screen__form {
+  margin: 0px 12px 12px;
+  width: 480px;
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 10px;
+}
+.forgotpassword-screen__form .error-message {
+  color: red;
+}
+.forgotpassword-screen__form .success-message {
+  color: #04343a;
+}
+.forgotpassword-screen__form .btn {
+  width: 211px;
+}
+.forgotpassword-screen__form input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  color: black;
+  font-weight: 590;
+  font-size: 1.25rem;
+  padding: 11px 9px;
+  width: 337px;
+}
+.forgotpassword-screen__form input::placeholder {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #877;
+}
+.forgotpassword-screen__form input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.forgotpassword-screen__form .form-group {
+  margin: 1.4rem 0px;
+}
+.forgotpassword-screen__form .form-group__align {
+  text-align: start;
+  margin-bottom: 1.7rem;
+}
+.forgotpassword-screen__form .form-group__align label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 21px;
+}
+.forgotpassword-screen__form .form-group.login--improve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.forgotpassword-screen__form .form-group.login--improve .form-group__align {
+  width: 100%;
+}
+.forgotpassword-screen__form .form-group,
+.forgotpassword-screen__form .form-group-remaining {
+  text-align: center;
+}
+.forgotpassword-screen__form .form-submit {
+  display: flex;
+  justify-content: center;
+}
+.forgotpassword-screen__form .form-submit .btn {
+  border-radius: 8px;
+  margin: 2rem auto;
+  width: 199px;
+}
+.forgotpassword-screen__form .form-submit .btn:hover {
+  background-color: tomato;
+  border: none;
+  color: white;
+}
+.forgotpassword-screen__form .form-group-remaining {
+  width: 100%;
+  margin: 1.4rem 0px 0.7rem;
+}
+.forgotpassword-screen__title {
+  font-size: 1.7rem;
+  font-weight: 650;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.forgotpassword-screen__subtext {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 3.5rem;
+}

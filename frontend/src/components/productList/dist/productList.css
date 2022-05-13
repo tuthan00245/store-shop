@@ -1,0 +1,27 @@
+.product-list .swiper-slide {
+  width: 18%;
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .product-list .swiper-slide {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product-list .swiper-slide {
+    width: 40%;
+  }
+}
+.product-list .home__product--item {
+  width: 182px;
+  display: block;
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .product-list .home__product--item {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product-list .home__product--item {
+    width: 125px;
+  }
+}

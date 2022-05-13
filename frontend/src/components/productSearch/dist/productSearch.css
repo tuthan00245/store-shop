@@ -1,0 +1,10 @@
+.home-container {
+  padding-top: calc(var(--header-height) + 20px);
+}
+.home-container .product--wrap {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.home-container .product--wrap h2 {
+  flex: 1;
+}

@@ -1,0 +1,88 @@
+.padding--fake {
+  padding-top: 140px;
+}
+
+.wrap--product__order .products h2 {
+  margin-left: 1rem;
+}
+.wrap--product__order .products .wrap--product__order--twice {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px;
+}
+.wrap--product__order .products .wrap--product__order--twice img {
+  width: 97px;
+  margin-right: 2rem;
+}
+.wrap--product__order .products .wrap--product__order--twice h4 {
+  font-size: 1.3rem;
+}
+.wrap--product__order .products .wrap--product__order--twice span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: red;
+}
+.wrap--product__order .wrap--main {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+}
+.wrap--product__order .wrap--main .products {
+  flex: 1;
+}
+.wrap--product__order .wrap--main .info--all {
+  flex: 1;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap--product__order .wrap--main .info--all__heading {
+  text-align: start;
+}
+.wrap--product__order .wrap--main .info--all__heading .order-status {
+  color: #0ebe0e;
+}
+.wrap--product__order .wrap--main .info--all__heading h2 {
+  margin-left: 1rem;
+}
+.wrap--product__order .wrap--main .info--all__heading ul {
+  list-style: none;
+  padding-right: 23px;
+}
+.wrap--product__order .wrap--main .info--all__heading ul li {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.wrap--product__order .wrap--main .info--all__heading ul li:last-child {
+  border: none;
+}
+.wrap--product__order .wrap--main .info--all__heading ul li span {
+  color: tomato;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.no--order {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.no--order .btn {
+  padding: 0;
+}
+.no--order .btn:hover {
+  background-color: tomato;
+}
+.no--order .btn a {
+  text-decoration: none;
+  display: block;
+  padding: 11px;
+  color: black;
+}
+.no--order .btn a:hover {
+  color: white;
+}
